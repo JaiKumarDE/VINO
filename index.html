@@ -1,130 +1,225 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vinothek | Bar & Weinlounge</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="Vinothek – moderne Weinbar mit gemütlichem Ambiente, feinen Cocktails und ausgewählten Weinen.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vinothek | Bar & Weinlounge</title>
+
+<link rel="stylesheet" href="./styles.css">
+
+<meta name="description"
+content="Vinothek – moderne Weinbar mit gemütlichem Ambiente, feinen Cocktails und ausgewählten Weinen.">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="brand">
-      <span class="logo">VINOTHEK</span>
-      <span class="tagline">Bar · Wein · Genuss</span>
-    </div>
-    <nav class="main-nav">
-      <a href="#home">Home</a>
-      <a href="#about">Über uns</a>
-      <a href="#drinks">Getränke</a>
-      <a href="#gallery">Galerie</a>
-      <a href="#contact">Kontakt</a>
-    </nav>
-    <button class="menu-toggle" aria-label="Navigation öffnen">☰</button>
-  </header>
 
-  <main>
-    <section id="home" class="hero-section">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Entdecke deine neue Adresse</p>
-        <h1>VINOTHEK</h1>
-        <p>Ein Abend voller Wein, Stil und entspanntem Flair in deiner Bar.</p>
-        <a href="#contact" class="btn btn-primary">Tisch reservieren</a>
-      </div>
-    </section>
+<header class="site-header">
+<div class="brand">
+<span class="logo">VINOTHEK</span>
+<span class="tagline">Bar · Wein · Genuss</span>
+</div>
 
-    <section id="about" class="section about-section reveal">
-      <div class="section-header">
-        <span>Willkommen</span>
-        <h2>Ein Ort für Weinliebhaber</h2>
-      </div>
-      <div class="about-grid">
-        <div>
-          <p>In der VINOTHEK verbinden wir klassische Eleganz mit moderner Gastfreundschaft. Genieße handverlesene Weine, kreative Cocktails und kleine Genusshäppchen in einem warmen, intimen Ambiente.</p>
-          <p>Ob gemütlicher Abend mit Freunden, After-Work-Drink oder kleiner Anlass – bei uns wirst du stilvoll verwöhnt.</p>
-          <a href="#drinks" class="btn btn-secondary">Unsere Auswahl ansehen</a>
-        </div>
-        <div class="about-image">
-          <img src="_DSC4248b.jpg" alt="Weinbar Ambiente" loading="lazy">
-        </div>
-      </div>
-    </section>
+<nav class="main-nav">
+<a href="#home">Home</a>
+<a href="#about">Über uns</a>
+<a href="#drinks">Getränke</a>
+<a href="#gallery">Galerie</a>
+<a href="#contact">Kontakt</a>
+</nav>
 
-    <section id="drinks" class="section drinks-section reveal">
-      <div class="section-header">
-        <span>Getränke</span>
-        <h2>Ausgewählte Weine & Cocktails</h2>
-      </div>
-      <div class="cards-grid">
-        <article class="card">
-          <h3>Wein des Monats</h3>
-          <p>Ein charaktervoller Rotwein mit feiner Fruchtnote, perfekt zu einem geselligen Abend.</p>
-        </article>
-        <article class="card">
-          <h3>Cocktail-Kreationen</h3>
-          <p>Frisch gemixte Drinks mit hochwertigen Zutaten und einer Prise Bar-Charme.</p>
-        </article>
-        <article class="card">
-          <h3>Gemütliche Atmosphäre</h3>
-          <p>Ein Ort zum Entspannen, Genießen und gemütlich zusammenkommen.</p>
-        </article>
-      </div>
-    </section>
+<button class="menu-toggle">☰</button>
+</header>
 
-    <section id="gallery" class="section gallery-section reveal">
-      <div class="section-header">
-        <span>Galerie</span>
-        <h2>Ein Blick in die Vinothek</h2>
-      </div>
-      <div class="gallery-grid">
-        <img src="_DSC4240b.jpg" alt="Bardetail" loading="lazy">
-        <img src="_DSC4252b.jpg" alt="Weinflaschen" loading="lazy">
-        <img src="_DSC4292b.jpg" alt="Stimmungsvolle Bar" loading="lazy">
-        <img src="_DSC4304b.jpg" alt="Wein und Glas" loading="lazy">
-      </div>
-    </section>
+<main>
 
-    <section class="section ambience-section reveal">
-      <div class="split-content">
-        <div class="split-text">
-          <span>Events</span>
-          <h2>Private Abende & Veranstaltungen</h2>
-          <p>Feiere kleine Events, Weinproben oder den besonderen Abend in privater Atmosphäre. Wir begleiten dich mit persönlicher Beratung und einer Idee für jeden Anlass.</p>
-          <a href="#contact" class="btn btn-primary">Jetzt Anfrage senden</a>
-        </div>
-        <div class="split-image">
-          <img src="_DSC4294b.jpg" alt="Barveranstaltung" loading="lazy">
-        </div>
-      </div>
-    </section>
+<section id="home" class="hero-section">
+<div class="hero-overlay"></div>
 
-    <section id="contact" class="section contact-section reveal">
-      <div class="section-header">
-        <span>Kontakt</span>
-        <h2>Wir freuen uns auf deinen Besuch</h2>
-      </div>
-      <div class="contact-grid">
-        <div>
-          <h3>Adresse</h3>
-          <p>Vinothek Bar<br>Deine Straße 12<br>12345 Deine Stadt</p>
-        </div>
-        <div>
-          <h3>Öffnungszeiten</h3>
-          <p>Mi–Fr: 17:00–01:00<br>Sa–So: 14:00–01:00</p>
-        </div>
-        <div>
-          <h3>Reservierung</h3>
-          <p>Tel: 0123 456789<br>Email: hallo@vinothek.example</p>
-        </div>
-      </div>
-    </section>
-  </main>
+<div class="hero-copy">
+<p class="eyebrow">Entdecke deine neue Adresse</p>
+<h1>VINOTHEK</h1>
 
-  <footer class="site-footer">
-    <p>VINOTHEK · Bar & Weinlounge · © 2026</p>
-  </footer>
+<p>
+Ein Abend voller Wein, Stil und entspanntem Flair
+in deiner Bar.
+</p>
 
-  <script src="script.js"></script>
+<a href="#contact" class="btn btn-primary">
+Tisch reservieren
+</a>
+</div>
+</section>
+
+<section id="about" class="section about-section">
+
+<div class="section-header">
+<span>Willkommen</span>
+<h2>Ein Ort für Weinliebhaber</h2>
+</div>
+
+<div class="about-grid">
+
+<div>
+<p>
+In der VINOTHEK verbinden wir klassische Eleganz
+mit moderner Gastfreundschaft.
+</p>
+
+<p>
+Genieße handverlesene Weine, kreative Cocktails
+und kleine Genusshäppchen.
+</p>
+
+<a href="#drinks" class="btn btn-secondary">
+Unsere Auswahl ansehen
+</a>
+</div>
+
+<div class="about-image">
+<img
+src="./_DSC4248b.jpg"
+alt="Weinbar Ambiente"
+loading="lazy">
+</div>
+
+</div>
+
+</section>
+
+<section id="drinks" class="section drinks-section">
+
+<div class="section-header">
+<span>Getränke</span>
+<h2>Ausgewählte Weine & Cocktails</h2>
+</div>
+
+<div class="cards-grid">
+
+<article class="card">
+<h3>Wein des Monats</h3>
+<p>
+Ein charaktervoller Rotwein mit feiner Fruchtnote.
+</p>
+</article>
+
+<article class="card">
+<h3>Cocktail-Kreationen</h3>
+<p>
+Frisch gemixte Drinks mit hochwertigen Zutaten.
+</p>
+</article>
+
+<article class="card">
+<h3>Gemütliche Atmosphäre</h3>
+<p>
+Ein Ort zum Entspannen und Genießen.
+</p>
+</article>
+
+</div>
+
+</section>
+
+<section id="gallery" class="section gallery-section">
+
+<div class="section-header">
+<span>Galerie</span>
+<h2>Ein Blick in die Vinothek</h2>
+</div>
+
+<div class="gallery-grid">
+
+<img src="./_DSC4240b.jpg" alt="Bardetail">
+<img src="./_DSC4252b.jpg" alt="Weinflaschen">
+<img src="./_DSC4292b.jpg" alt="Bar">
+<img src="./_DSC4304b.jpg" alt="Wein">
+
+</div>
+
+</section>
+
+<section class="section ambience-section">
+
+<div class="split-content">
+
+<div class="split-text">
+
+<span>Events</span>
+
+<h2>
+Private Abende &
+Veranstaltungen
+</h2>
+
+<p>
+Feiere kleine Events,
+Weinproben oder besondere Abende.
+</p>
+
+<a href="#contact" class="btn btn-primary">
+Jetzt Anfrage senden
+</a>
+
+</div>
+
+<div class="split-image">
+<img
+src="./_DSC4294b.jpg"
+alt="Barveranstaltung">
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section contact-section">
+
+<div class="section-header">
+<span>Kontakt</span>
+<h2>Wir freuen uns auf deinen Besuch</h2>
+</div>
+
+<div class="contact-grid">
+
+<div>
+<h3>Adresse</h3>
+<p>
+Vinothek Bar<br>
+Deine Straße 12<br>
+12345 Deine Stadt
+</p>
+</div>
+
+<div>
+<h3>Öffnungszeiten</h3>
+<p>
+Mi–Fr: 17:00–01:00<br>
+Sa–So: 14:00–01:00
+</p>
+</div>
+
+<div>
+<h3>Reservierung</h3>
+<p>
+Tel: 0123 456789<br>
+Email: hallo@vinothek.example
+</p>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="site-footer">
+<p>
+VINOTHEK · Bar & Weinlounge · © 2026
+</p>
+</footer>
+
+<script src="./script.js"></script>
+
 </body>
 </html>
